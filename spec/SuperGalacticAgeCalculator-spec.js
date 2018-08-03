@@ -24,7 +24,7 @@ describe('SuperGalacticAgeCalculator', function(){
  });
 
  it('should calculate the age of someone into Venus years', function () {
-  expect(calculator.ageInYearsOnVenus(21)).toEqual(34);
+  expect(calculator.ageInYearsOnVenus(21)).toEqual(33);
 });
 
 it('should calculate the age of someone into Mars years', function () {

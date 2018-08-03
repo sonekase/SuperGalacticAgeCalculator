@@ -47,7 +47,7 @@ anousonekaseumsouk@icloud.com
 
 |Input  | Output                 |
 |--------|-----------------------|
-|21 years|34.0 years             |
+|21 years|33.0 years             |
 
 * Return the age of a human in Mars years
 
@@ -59,7 +59,7 @@ anousonekaseumsouk@icloud.com
 
 |Input  | Output                 |
 |--------|-----------------------|
-|21 years|1.7 years              |
+|21 years|1.0 years              |
 
 * Determine how many years a user has left to live on each planet. Example: 21 years old/Max life 100 years old.
 

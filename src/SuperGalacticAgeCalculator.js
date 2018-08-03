@@ -9,7 +9,7 @@ constructor () {
     return secondsInYear;
   }
 
-//Moment.js Parse, validate, manipulate, and display dates and times in JavaScript. 
+//Moment.js Parse, validate, manipulate, and display dates and times in JavaScript.
   secondsBetweenDates(date1, date2) {
     let a = moment(date1);
     let b = moment(date2);
@@ -31,6 +31,16 @@ constructor () {
     let ageOnVenus = Math.floor(age / 0.62);
     return ageOnVenus;
   }
+
+  ageInYearsOnMars(age) {
+   let ageOnMars = Math.floor(age / 1.88);
+   return ageOnMars;
+ }
+
+ ageInYearsOnJupiter(age) {
+   let ageOnJupiter = Math.floor(age / 11.86);
+   return ageOnJupiter;
+ }
 
 
 
